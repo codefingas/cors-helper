@@ -1,0 +1,38 @@
+{
+  "name": "cors-helper",
+  "version": "1.0.0",
+  "description": "Program interface for CORS bypass server",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "exit 0",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefingas/cors-helper.git"
+  },
+  "keywords": [
+    "cors",
+    "http",
+    "axios",
+    "javascript",
+    "reactjs",
+    "vuejs",
+    "node",
+    "express",
+    "connect",
+    "middleware",
+    "xmlhttprequest"
+  ],
+  "author": "Ezekiel Saturday",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codefingas/cors-helper/issues"
+  },
+  "homepage": "https://github.com/codefingas/cors-helper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-retry": "^3.2.5"
+  }
+}
